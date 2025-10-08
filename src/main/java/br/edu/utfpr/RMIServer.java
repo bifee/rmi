@@ -12,7 +12,7 @@ public class RMIServer {
     public void start() {
         try {
             LocateRegistry.createRegistry(1099);
-            Naming.rebind("rmi://localhost/db", db);
+            Naming.rebind("rmi://localhost/eduardogabriela", db);
             System.out.println("Servidor Pronto");
             while (true) {}
         } catch (Exception e) {

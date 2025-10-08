@@ -75,7 +75,7 @@ public class RMIClientHandler {
         }
     }
 
-    private void handleListAll(){
+    public void handleListAll(){
             listAllCars();
     }
 
